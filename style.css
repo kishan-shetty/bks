@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #06062a;
+}
+
+.fancybg
+{
+  background-image: url(img/fancy.jpg);
+  background-size: cover;
+}
+
+.fancylogo
+{
+  text-align: center;
+  padding: 80px;
+/*  margin-bottom: 80px;*/
+}
+
+.fancylogo img
+{
+/*  height: 300px;*/
+}
+
+.bgstafa
+{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.vidbg
+{
+  background-image: url(img/vidbg.png);
+  background-size: cover;
+  padding: 100px;
+  padding-bottom: 0px;
+  background-position: center;
+}
+
+.eventbg
+{
+  background-image: url(img/eventbb.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main iframe
+{
+  height: 500px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.4); 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.73); 
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-dark
+{
+  background-color: rgba(0, 0, 0, 0)!important;
+/*  background-image: url(img/conform.jpg);*/
+}
+
+.navbar-dark .navbar-toggler
+{
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-brand img
+{
+  height: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+  padding: 20px 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.navbar-dark .navbar-nav .nav-link
+{
+/*
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0px;
+  width: 30%;
+  margin-left: 70%;
+*/
+  font-weight: 700;
+  transition-duration: 0.3s;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+/*  text-decoration: line-through;*/
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.more
+{
+  margin-top: -7px;
+}
+
+.more .col-md-6
+{
+  padding: 70px;
+  text-align: center;
+}
+
+.darkish
+{
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid white;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 0px;
+  padding: 10px 30px;
+}
+
+.darkish:hover
+{
+  background-color: white;
+  color: #222;
+}
+
+.more .darkish
+{
+  margin-top: 30px;
+}
+
+.band
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.band .col-md-3
+{
+  padding: 40px;
+}
+
+.band h4
+{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.band p
+{
+  margin-top: 0px;
+}
+
+.artist
+{
+  height: 350px;
+  width: 100%;
+  margin: 20px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.thatthumb
+{
+  padding: 80px 150px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: 10px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.thatthumb:hover
+{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#t1
+{
+  background-image: url(img/videos/thumb1.png);
+}
+
+#t2
+{
+  background-image: url(img/videos/thumb2.png);
+}
+
+#t3
+{
+  background-image: url(img/videos/thumb3.png);
+}
+
+#t4
+{
+  background-image: url(img/videos/thumb4.png);
+}
+
+#t5
+{
+  background-image: url(img/videos/thumb5.png);
+}
+
+#t6
+{
+  background-image: url(img/videos/thumb6.png);
+}
+
+
+#thatvideo
+{
+  color: white;
+}
+
+#thatvideo h1
+{
+  color: white;
+}
+
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+/*    z-index: 1;*/
+}
+
+.topmenu
+{
+  position: absolute;
+}
+
+.topmenu
+{
+  padding: 30px;
+}
+
+.grape
+{
+/*  font-family: 'Playfair Display', serif;*/
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+}
+
+.grape h1
+{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.onegrape
+{
+  padding: 20px;
+  font-style: italic;
+  font-weight: 100;
+  padding-top: 0px;
+}
+
+.huge
+{
+  background-image: url(img/inverted-commas.svg);
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+/*  margin-bottom: -50px;*/
+}
+
+.name
+{
+  text-align: right;
+  font-size: 14px;
+}
+
+.onegrape img
+{
+/*  height: 100px;*/
+/*  width: 100px;*/
+  border-radius: 50%;
+}
+
+.conform
+{
+/*  background-image: url(img/conform.jpg);*/
+  color: rgba(255, 255, 255, 0.7);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.form-control
+{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 0px;
+}
+
+.conform hr
+{
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 70%;
+}
+
+.prof
+{
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.prof:hover
+{
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.social .fab
+{
+  font-size: 50px;
+  margin: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social a
+{
+  color: rgba(255, 255, 255, 0.6);
+  transition-duration: 0.3s;
+}
+
+.social a:hover
+{
+  color: white;
+}
+
+.main
+{
+  background-image: url(img/thumb1.png);
+  height: 500px;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.horyt
+{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+
+.horyt iframe
+{
+  margin: 0px 20px;
+}
+
+.horyt p
+{
+  text-align: right;
+  color: white;
+}
+
+.album
+{
+  padding: 50px;
+}
+
+.album h1
+{
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.album .event
+{
+  color: white;
+  padding: 20px;
+/*  padding-top: 20px;*/
+/*  padding-bottom: 80px;*/
+  height: 300px;
+  background: linear-gradient(to bottom, #000000, rgba(255, 255, 255, 0));
+  text-align: left;
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+.album .back
+{
+/*  padding: 20px;*/
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.3s;
+}
+
+.alshow
+{
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.album .back:hover .alshow
+{
+  opacity: 0.6;
+}
+
+.album .back:hover .event
+{
+  background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.8));
+}
+
+.album h5
+{
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  color: #e340a3;
+/*  margin-bottom: 20px;*/
+}
+
+
+.conform .container
+{
+  background-image: url(img/conbg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  background-color: #181d3d;*/
+  padding: 50px;
+/*  margin-bottom: 50px;*/
+}
+
+.tour
+{
+  color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.tdate
+{
+  padding: 20px 40px;
+/*  display: inline-block;*/
+  margin-top: 30px;
+  color: #181d3d;
+}
+
+.ddate
+{
+  background-color: white;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tour h1
+{
+  margin-top: 0px;
+}
+
+.tour .container
+{
+  padding: 50px;
+  background-color: #181d3d;
+}
+
+.dplace
+{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 20px;
+}
+
+.dplace h4
+{
+  font-size: 20px;
+/*  font-weight: 700;*/
+}
+
+#shows .darkish
+{
+  margin-top: 50px;
+}
+
+.tour .row
+{
+  margin-top: 30px;
+}
+
+.form-control
+{
+  color: white;
+}
+
+.single iframe
+{
+  height: 250px;
+  width: 450px;
+  border: none;
+  overflow: hidden;
+}
+
+.single .thumb
+{
+  height: 250px;
+  width: 450px;
+  background-color: aqua;
+}
+
+.testimg
+{
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .fancybg
+  {
+    background-position: center;
+  }
+  
+  .fancylogo img
+  {
+    height: 200px;
+  }
+  
+  .vidbg
+  {
+    padding: 5px;
+  }
+  
+  .main #thatvideo
+  {
+    height: 200px;
+  }
+  
+  .horyt
+  {
+    padding-top: 20px;
+  }
+  
+  .single .thatthumb
+  {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .album
+  {
+    padding: 10px;
+  }
+  
+  .album .event
+  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .back
+  {
+    margin-bottom: 30px;
+  }
+  
+  .tour h1
+  {
+    font-size: 20px;
+  }
+  
+  .dplace h4
+  {
+    font-size: 18px;
+  }
+  
+  .marg
+  {
+    margin-bottom: 50px;
+  }
+  
+  .grape
+  {
+    padding: 10px;
+  }
+  
+  .thatthumb
+  {
+    padding: 20px 80px;
+    font-size: 20px;
+  }
+  
+  .testimg
+  {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .huge
+  {
+    height: 50px;
+  }
+  
+  .onegrape .col-8
+  {
+    font-size: 12px;
+  }
+  
+  .name
+  {
+    font-size: 10px;
+  }
+  
+  .social .fab
+  {
+    font-size: 35px;
+/*    margin: 25px;*/
+  }
+  
+  .main
+  {
+    height: 200px;
+    background-position: center;
+  }
+  
+  body,html
+  {
+    overflow-x: hidden;
+  }
+}
+
+.stickyprofile
+{
+  position: absolute;
+  position: fixed;
+  display: inline-block;
+  padding: 15px;
+  background-color: white;
+  top: 20px;
+  border-radius: 3px;
+  right: 20px;
+  z-index: 2;
+}
+
+.stickyprofile a
+{
+  font-weight: 700;
+  color: #333;
+}
